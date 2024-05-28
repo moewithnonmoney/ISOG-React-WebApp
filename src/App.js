@@ -339,7 +339,7 @@ function App() {
       <div className="rightSide">
         <div className="dates">
           <div className="arabicDate">
-            {currentHijriDay} {currentHijriMonth} {currentHijriYear}
+            {currentHijriYear}-{currentHijriDay}-{currentHijriMonth}
           </div>
           {/*get hijri date does not display anything anymore*/}
           <div className="englishDate">{momentDate}</div>
